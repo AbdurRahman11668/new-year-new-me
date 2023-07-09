@@ -1,4 +1,4 @@
-/* Main Body styles */
+/* Common Shared Style */
 *{
     margin: 0;
     padding: 0;
@@ -6,4 +6,194 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Urbanist', sans-serif;
+}
+
+.section-title {
+    color: #181818;
+    font-size: 65px;
+    font-weight: 700;
+  }
+  .section-des {
+    color: #757575;
+    font-size: 16px;
+  }
+
+.btn-primary {
+    border-radius: 5px;
+    background: #fd6e0a;
+    border: 2px solid #fd6e0a;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+  }
+
+/* Believe Section Styles */
+.believe{
+    width: 100%;
+    height: 700px;
+    background-image: url('./images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-info{
+    display: block;
+    width: 30%;
+    margin: 0 230px 0 auto;
+    padding-top: 216px;
+    text-align: right;
+}
+.section-info p{
+    margin: 25px 0;
+}
+
+/* Failure Section Styles */
+.failure{
+    display: flex;
+    padding: 140px 0;
+    align-items: center;
+
+}
+.failure-image{
+    width: 50%;
+    padding-left: 206px;
+}
+.person{
+    width: 451px;
+    padding-left: 50px;
+}
+.failure-info{
+    width: 50%;
+    text-align: left;
+}
+.failure-info .section-title{
+    font-size: 40px;
+    width: 288px;
+}
+.failure-info .section-des{
+    text-align: left;
+    padding: 24px 0 10px 0;
+    width: 416px;
+}
+.tick a{
+    color: #444343;
+    display: flex;
+    text-decoration: none;
+    padding: 4px 0;
+}
+.fa-check{
+    color: #16D887;
+    padding-right: 5px;
+}
+
+/* My plan sections styles */
+.plans-section{
+    text-align: center;
+}
+.plans-section h3{
+    font-size: 40px;
+    margin-bottom: 55px;
+}
+.plans-list{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 229px;
+}
+
+.plans{
+    width: 218px;
+}
+.plans .section-title{
+    color: #151414;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* Positive Section styles */
+.positive-section{
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+    background-image: url('./images/gradient3.png'), url('./images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.positive-section .section-info{
+    position: absolute;
+    text-align: left;
+    margin-left: 294px;
+    padding: 160px 0 0 0;
+}
+
+.positive-section h3{
+    width: 500px;
+    font-size: 40px;
+    color: #fff;
+}
+.positive-section button{
+    background-color: white;
+    color: #F15B22;  
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+/* Footer Section Styles */
+.footer{
+    display: flex;
+    background: #151414;
+    padding: 130px 0;
+}
+.future{
+    width: 50%;
+    padding: 0 150px 0 180px;
+}
+.footer .section-title{
+    color: #F8F8F8;
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+.footer .section-des{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer .section-des:nth-child(3){
+    margin: 15px 0;
+}
+
+.subscribe{
+    width: 50%;
+    
+    padding: 0 150px 0 180px;
+}
+.form{
+    display: block;
+}
+.subscribe .section-title{
+    margin-bottom: 30px;
+}
+.form input{
+    display: block;
+    margin-bottom: 16px;
+    padding: 15px 150px 15px 22px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: none;
+}
+.form input::placeholder{
+    color: #fff;
+}
+.form button{
+    background-color: #fff;
+    color: #F15B22;
+}
+.footer-icons img{
+    margin-top: 32px;
+    width: 35px;
+    margin-right: 20px;
 }
